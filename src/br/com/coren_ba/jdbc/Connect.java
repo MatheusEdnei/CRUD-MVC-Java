@@ -15,14 +15,18 @@ public class Connect {
 			FuncionarioDao dao = new FuncionarioDao();
 			funcionario.setMatricula(12347);
 			altera.exclui(funcionario);
+			*/
+		
 			/*
-			/*
+			
 			// Testando excluir Funcionario
 			Funcionario funcionario = new Funcionario();
 			FuncionarioDao dao = new FuncionarioDao();
 			funcionario.setMatricula(12357);
 			dao.exclui(funcionario);
-			/*
+			
+			*/
+			
 			/*
 			// Criando a instância de Funcionário
 			
@@ -39,9 +43,12 @@ public class Connect {
 			
 			FuncionarioDao funcionariodao = new FuncionarioDao();
 			funcionariodao.adiciona(funcionario);
+			
+			*/
+			
+			
 			/*
-			/*
-			ConexaoFactory conexao = new ConexaoFactory();
+			ConnectionFactory conexao = new ConnectionFactory();
 			
 			try{
 				conexao.getConnection();
@@ -50,6 +57,7 @@ public class Connect {
 				System.out.println("Recusada!");
 			}
 			*/
+			
 	
 	}
 }

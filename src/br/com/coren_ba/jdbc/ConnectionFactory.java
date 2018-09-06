@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConnectionFactory {
-private static String URL = "jdbc:sqlserver://192.168.0.142:1433;user=Admin;password=T3st3!!;DabaseName=db_EDoc";
+private static String URL = "jdbc:sqlserver://192.168.0.142:1433;user=Admin;password=T3st3!!;DabaseName=db_EDocument";
 
 public Connection getConnection() throws SQLException {
     try {
