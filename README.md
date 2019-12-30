@@ -1,2 +1,1 @@
-# Crud MVC Java
-Sistema de Crud MVC utilizando Java Web.
+# Sistema de emissão de documentos
